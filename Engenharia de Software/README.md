@@ -4,7 +4,7 @@ Within Google, we sometimes say, “Software engineering is programming integrat
 
 ### Comment 1
 
-Engenharia de software não só é composto pelo ato de programar, mas também à visão para criação de um software como um todo, tanto em suas características físicas e/ou lógicas que afetam o tempo e verba, como a facilidade de manutenção baseado na complexidade, ou a possibilidade de adicionar funções ultrapassar os recursos do projeto.
+Engenharia de software não só é composto pelo ato de programar, mas também à visão para criação de um software como um todo, tanto em suas características físicas e/ou lógicas que afetam o tempo e verba, como a facilidade de manutenção baseado na complexidade, ou a possibilidade de adicionar funções sem ultrapassar os recursos do projeto.
 
 ## Text 2
 

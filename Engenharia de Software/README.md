@@ -1,18 +1,22 @@
-## Text 1
+# 1. Comentários do livro Software Engineering at Google
+
+## Texto 1
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
-### Comment 1
+### Comentário 1
 
 Engenharia de software não só é composto pelo ato de programar, mas também à visão para criação de um software como um todo, tanto em suas características físicas e/ou lógicas que afetam o tempo e verba, como a facilidade de manutenção baseado na complexidade, ou a possibilidade de adicionar funções sem ultrapassar os recursos do projeto.
 
-## Text 2
+## Texto 2
 
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth.
 
-### Comment 2
+### Comentário 2
 
 Trade-offs são os sacrifícios que o engenheiro de software precisa mentalizar antes de iniciar um projeto, começando pela linguagem que será utilizada, deve-se pensar na mão de obra disponível, nível de conversação com o hardware no qual o software será utilizado, complexidade/legibilidade de sintaxe e agilidade na manutenção do código.
+
+# 2. Três exemplos de trade-offs
 
 #### Performance x Utilização de Recursos:
 O game Atomic Heart produzido pelo estúdio Mundfish, inicialmente contaria com o recurso de ray-tracing (iluminação e reflexos calculados em tempo real por meio de raios de luz), porém devido ao alto custo de recursos do hardware e a instabilidade do mercado de placas de video, fez o estúdio tomar a decisão de não adicionar esse recurso não só para priorizar outras funcionalidades, mas também como a acessibildade por meio de um jogo que pode rodar em um escopo maior de computadores.
@@ -23,7 +27,7 @@ Os softwares Photoshop e Lightroom da Adobe podem servir como um exemplo desta d
 #### Autenticação em Dois-fatores x Login Básico com Senha:
 A autenticação em dois-fatores ou login básico com senha podem incorporar a segurança de um site baseado na sensibilidade dos dados que são guardados nos servidores, ou pela simples preocupação da empresa com esses dados. Atualmente sites de email, ou que podem solicitar dados bancários como lojas, fazem a solicitação da atenticação em dois fatores, devido a maior segurança que traz para o usuário, e sites que não utilizam de dados importantes pedem somente pelo login básico com senha, inclusive para não proporcionar a possível inconveniencia que a autorização em dois fatoes pode trazer.
 
-## Text "10 Usability Heuristics for User Interface Design"
+# 3. Requisito não funcional de usabilidade (referência ao texto "10 Usability Heuristics for User Interface Design")
 
 #### 1: Visibility of system status
 Acerto: Instalação de software no Linux, lá aparece tudo que está acontencendo via console.
@@ -43,29 +47,24 @@ Erro: Inconsistência nos termos utilizados para se referir aos recuros do softw
 
 #### 5: Error prevention
 Acerto: Limitar número de caracteres de uma caixa de texto que deve ser preenchida, no aplicativo do banco Itau o número da agência e conta já são pré formatados na tela inicial, só requirindo que o usuário coloque os números.
-Erro: Não colocar avisos em casos no qual erros não poderão ser desfeitos, como o 
+Erro: Não colocar avisos em casos no qual erros não poderão ser desfeitos, como a exclusão de dados, sem pedir confirmação. Isso pode resultar em erros irreversíveis, já que os usuários podem acidentalmente excluir informações importantes sem a oportunidade de revisar ou confirmar a ação.
 
 #### 6: Recognition rather than recall
-Acerto:
-Erro:
+Acerto: O sistema utiliza atalhos de teclado amplamente reconhecidos e fornece uma interface de usuário intuitiva, tornando mais fácil para os usuários realizar tarefas sem a necessidade de memorizar comandos específicos.
+Erro: Um sistema de software exige que os usuários memorizem um grande número de comandos de teclado complexos, em vez de utilizar atalhos familiares, como Ctrl+C para copiar e Ctrl+V para colar.
 
 #### 7:Flexibility and efficiency of use
-Acerto:
-Erro:
+Acerto: O software CAD oferece uma interface com opções simplificadas para iniciantes, mas permite que usuários avançados acessem funcionalidades avançadas, oferecendo assim flexibilidade para diferentes níveis de habilidade.
+Erro: Um software CAD (Computer-Aided Design) fornece apenas uma interface de usuário avançada, tornando-a difícil de usar para iniciantes que desejam tarefas básicas de desenho.
 
 ### 8: Aesthetic and minimalist design
-Acerto:
-Erro:
+Acerto: O aplicativo de produtividade segue um design minimalista, utilizando espaços em branco, cores sutis e layout limpo para criar uma interface de usuário agradável e sem distrações.
+Erro: Um aplicativo de produtividade é sobrecarregado com gráficos, animações e informações desnecessárias, tornando a interface poluída e confusa.
 
 ### 9: Help users recognize, diagnose, and recover from errors
-Acerto:
-Erro:
+Acerto: O sistema gera mensagens de erro amigáveis e informativas que explicam o problema de maneira simples e oferecem soluções sugeridas ou links para recursos de suporte, ajudando os usuários a entender e resolver problemas.
+Erro: Um sistema emite mensagens de erro técnicas e incompreensíveis quando ocorre um problema, sem fornecer orientações sobre como o usuário pode resolver o erro.
 
 ### 10: Help and documentation
-Acerto:
-Erro:
-
-
-## Diagrama de casos de uso
-
-[]()
+Acerto: O software inclui uma extensa documentação on-line, tutoriais interativos e suporte de chat ao vivo para ajudar os usuários a aprender a usar o software e resolver problemas rapidamente.
+Erro: Um software complexo não fornece documentação ou assistência, deixando os usuários sem recursos para aprender a usar o sistema.

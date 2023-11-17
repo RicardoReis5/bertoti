@@ -57,14 +57,14 @@ Erro: Um sistema de software exige que os usuários memorizem um grande número 
 Acerto: O software CAD oferece uma interface com opções simplificadas para iniciantes, mas permite que usuários avançados acessem funcionalidades avançadas, oferecendo assim flexibilidade para diferentes níveis de habilidade.
 Erro: Um software CAD (Computer-Aided Design) fornece apenas uma interface de usuário avançada, tornando-a difícil de usar para iniciantes que desejam tarefas básicas de desenho.
 
-### 8: Aesthetic and minimalist design
+#### 8: Aesthetic and minimalist design
 Acerto: O aplicativo de produtividade segue um design minimalista, utilizando espaços em branco, cores sutis e layout limpo para criar uma interface de usuário agradável e sem distrações.
 Erro: Um aplicativo de produtividade é sobrecarregado com gráficos, animações e informações desnecessárias, tornando a interface poluída e confusa.
 
-### 9: Help users recognize, diagnose, and recover from errors
+#### 9: Help users recognize, diagnose, and recover from errors
 Acerto: O sistema gera mensagens de erro amigáveis e informativas que explicam o problema de maneira simples e oferecem soluções sugeridas ou links para recursos de suporte, ajudando os usuários a entender e resolver problemas.
 Erro: Um sistema emite mensagens de erro técnicas e incompreensíveis quando ocorre um problema, sem fornecer orientações sobre como o usuário pode resolver o erro.
 
-### 10: Help and documentation
+#### 10: Help and documentation
 Acerto: O software inclui uma extensa documentação on-line, tutoriais interativos e suporte de chat ao vivo para ajudar os usuários a aprender a usar o software e resolver problemas rapidamente.
 Erro: Um software complexo não fornece documentação ou assistência, deixando os usuários sem recursos para aprender a usar o sistema.

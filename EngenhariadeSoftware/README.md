@@ -30,41 +30,71 @@ A autenticação em dois-fatores ou login básico com senha podem incorporar a s
 # 3. Requisito não funcional de usabilidade (referência ao texto "10 Usability Heuristics for User Interface Design")
 
 #### 1: Visibility of system status
+
+![Requisito1](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito1.png)
+
 Acerto: Instalação de software no Linux, lá aparece tudo que está acontencendo via console.
 Erro: Configuração inicial na instalação e atualização do Windows, onde simplesmente aparecem frases que não dizem o que está acontecendo com o sistema.
 
 #### 2:Match between system and the real world
+
+![Requisito2](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito2.png)
+
 Acerto: Arquivos e pastas, essa nomenclatura trouxe dos documentos da vida real ao mundo dos softwares a fácil identificação do que os conteúdos do computador são e o que fazem, o mais conhecido exemplo seria a do Explorador de Arquviso do Windows.
 Erro: O uso de termos muito específicos da área de desenvolvimento, por exemplo o uso de erros com um código, como error 404 em websites, e o error 0xc0000142 no Windows.
 
 #### 3:User control and freedom
+
+![Requisito3](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito3.png)
+
 Acerto: Botões desfazer e refazer em aplicações em que o usuário possa cometer erros, Photoshop, Pacote Office, Softwares de Ilustação, etc.
 Erro: Quando não há desfazer uma ação já realizada, como mandar um email via Outlook.
 
 #### 4:Consistency and standards
+
+![Requisito4](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito4.png)
+
 Acerto: Consistência de UI em softwares relacionados e/ou dependentes um do outro, como o Mercado Livre e Mercado Pago, não só há consistencia nos termos utilizados para se referir os recurosos, mas também a própria logo dos serviços são conscisos um com ou outro.
 Erro: Inconsistência nos termos utilizados para se referir aos recuros do software, 
 
 #### 5: Error prevention
+
+![Requisito5](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito5.png)
+
 Acerto: Limitar número de caracteres de uma caixa de texto que deve ser preenchida, no aplicativo do banco Itau o número da agência e conta já são pré formatados na tela inicial, só requirindo que o usuário coloque os números.
 Erro: Não colocar avisos em casos no qual erros não poderão ser desfeitos, como a exclusão de dados, sem pedir confirmação. Isso pode resultar em erros irreversíveis, já que os usuários podem acidentalmente excluir informações importantes sem a oportunidade de revisar ou confirmar a ação.
 
 #### 6: Recognition rather than recall
+
+![Requisito6](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito6.png)
+
 Acerto: O sistema utiliza atalhos de teclado amplamente reconhecidos e fornece uma interface de usuário intuitiva, tornando mais fácil para os usuários realizar tarefas sem a necessidade de memorizar comandos específicos.
 Erro: Um sistema de software exige que os usuários memorizem um grande número de comandos de teclado complexos, em vez de utilizar atalhos familiares, como Ctrl+C para copiar e Ctrl+V para colar.
 
 #### 7:Flexibility and efficiency of use
+
+![Requisito7](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito7.png)
+
 Acerto: O software CAD oferece uma interface com opções simplificadas para iniciantes, mas permite que usuários avançados acessem funcionalidades avançadas, oferecendo assim flexibilidade para diferentes níveis de habilidade.
 Erro: Um software CAD (Computer-Aided Design) fornece apenas uma interface de usuário avançada, tornando-a difícil de usar para iniciantes que desejam tarefas básicas de desenho.
 
 #### 8: Aesthetic and minimalist design
+
+![Requisito8](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito8.png)
+
 Acerto: O aplicativo de produtividade segue um design minimalista, utilizando espaços em branco, cores sutis e layout limpo para criar uma interface de usuário agradável e sem distrações.
 Erro: Um aplicativo de produtividade é sobrecarregado com gráficos, animações e informações desnecessárias, tornando a interface poluída e confusa.
 
 #### 9: Help users recognize, diagnose, and recover from errors
+
+![Requisito9](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito9.png)
+
 Acerto: O sistema gera mensagens de erro amigáveis e informativas que explicam o problema de maneira simples e oferecem soluções sugeridas ou links para recursos de suporte, ajudando os usuários a entender e resolver problemas.
 Erro: Um sistema emite mensagens de erro técnicas e incompreensíveis quando ocorre um problema, sem fornecer orientações sobre como o usuário pode resolver o erro.
 
 #### 10: Help and documentation
+
+![Requisito10](https://github.com/RicardoReis5/bertoti/blob/main/EngenhariadeSoftware/resources/Requisito10.png)
+
 Acerto: O software inclui uma extensa documentação on-line, tutoriais interativos e suporte de chat ao vivo para ajudar os usuários a aprender a usar o software e resolver problemas rapidamente.
 Erro: Um software complexo não fornece documentação ou assistência, deixando os usuários sem recursos para aprender a usar o sistema.
